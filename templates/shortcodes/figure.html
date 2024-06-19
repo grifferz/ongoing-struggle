@@ -1,0 +1,15 @@
+{% set image = resize_image(path=page.colocated_path ~ src, width=450,
+height=450, op="fit") %}
+<div{% if class %} class="{{class}}"{% endif %}>
+  <figure>
+    <a href="{{ src | safe }}">
+      <img
+        src="{{ image.url | safe }}"
+        alt="{{ alt }}"
+        width="{{ image.width }}"
+        height="{{ image.height }}"
+      />
+    </a>
+      <figcaption>{{ caption }}</figcaption>
+  </figure>
+</div>

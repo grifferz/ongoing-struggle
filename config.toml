@@ -1,0 +1,66 @@
+# The URL the site will be built for
+base_url = "https://strugglers.net"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+theme = "tabi"
+
+title = "The Ongoing Struggle"
+description = "I'll get there eventually"
+
+generate_feed = true
+
+default_language = "en"
+taxonomies = [{ name = "tags", feed = true, paginate_by = 10 }]
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+highlight_theme = "css"
+
+[search]
+index_format = "elasticlunr_json"
+include_title = true
+include_description = true
+include_path = true
+include_content = true
+
+[extra]
+copy_button = true
+
+copyright = """
+© $CURRENT_YEAR Andy Smith $SEPARATOR Unless otherwise noted,
+the content in this website is available under the
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
+"""
+
+default_theme = "dark"
+
+email = "YW5keS1ibG9nQHN0cnVnZ2xlcnMubmV0"
+
+footnote_backlinks = true
+
+full_content_in_feed = true
+
+invert_title_order = true
+
+menu = [
+    { url = "", name = "Home" },
+    { url = "posts", name = "Posts" },
+    { url = "tags", name = "Tags" },
+]
+
+skin = "mint"
+
+socials = [
+    { name = "Fediverse", url = "https://social.bitfolk.com/@grifferz", icon = "mastodon"},
+    { name = "YouTube", url = "https://youtube.com/@grifferz", icon = "youtube"},
+    { name = "GitHub", url = "https://github.com/grifferz", icon = "github"},
+]
+
+stylesheets = [ "strugglers_extras.css" ]
