@@ -43,6 +43,8 @@ default_theme = "dark"
 
 email = "YW5keS1ibG9nQHN0cnVnZ2xlcnMubmV0"
 
+favicon = "img/favicon.ico"
+
 footnote_backlinks = true
 
 full_content_in_feed = true
