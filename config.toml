@@ -61,6 +61,8 @@ menu = [
 
 skin = "mint"
 
+social_media_card = "/social_cards/default.jpg"
+
 socials = [
     { name = "Fediverse", url = "https://social.bitfolk.com/@grifferz", icon = "mastodon"},
     { name = "YouTube", url = "https://youtube.com/@grifferz", icon = "youtube"},
