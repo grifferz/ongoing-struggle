@@ -19,7 +19,6 @@ that I thought perhaps I might try to implement a link shortener.
 
 {{ toc() }}
 
-
 ## Disclaimer
 
 Now, clearly there are tons of existing commercial link shorteners, I'm not
@@ -291,11 +290,11 @@ them.
 ## Aside
 
 Having some [customers](https://bitfolk.com) who run personal link shorteners
-that they keep open to the public (i.e. anyone can sumit a link), they
-constantly get used for linking to malicious content. People link to phishing
-pages and malware and then put the shortlink into their spam emails so that
-URL-based antispam is confused. It is a constant source of administrative
-burden.
+that they keep open to the public (i.e. anyone can submit a link), I can tell
+you they constantly get used for linking to malicious content. People link to
+phishing pages and malware and then put the shortlink into their spam emails
+so that URL-based antispam is confused. It is a constant source of
+administrative burden.
 
 If I ever get a minimum viable product it will not allow public link
 submission.
