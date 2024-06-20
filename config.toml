@@ -13,6 +13,7 @@ title = "The Ongoing Struggle"
 description = "I'll get there eventually"
 
 generate_feed = true
+hard_link_static = true
 
 default_language = "en"
 taxonomies = [{ name = "tags", feed = true, paginate_by = 10 }]
