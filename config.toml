@@ -11,6 +11,7 @@ theme = "tabi"
 
 title = "The Ongoing Struggle"
 description = "I'll get there eventually"
+author = "Andy"
 
 generate_feed = true
 # `zole serve` doesn't seem to like hardlinls.
