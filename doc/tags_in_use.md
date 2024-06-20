@@ -2,6 +2,7 @@
 
 ## Meta
 
+- meta
 - migrated-from-wordpress
 - testing
 
@@ -13,6 +14,10 @@
 ## Programming
 
 - rustlang
+
+## Software
+
+- apache
 
 ## Vague tech
 
