@@ -1,5 +1,13 @@
 # Tags in use in the blog already
 
+## BitFolk
+
+- bitfolk
+
+## Feels
+
+- fail
+
 ## Meta
 
 - meta
@@ -23,3 +31,4 @@
 
 - hacking
 - internet
+- iot
