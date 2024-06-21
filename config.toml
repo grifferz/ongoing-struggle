@@ -13,7 +13,7 @@ title = "The Ongoing Struggle"
 description = "I'll get there eventually"
 author = "Andy"
 
-generate_feed = true
+generate_feeds = true
 # `zole serve` doesn't seem to like hardlinls.
 #hard_link_static = true
 
