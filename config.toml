@@ -50,6 +50,10 @@ email = "YW5keS1ibG9nQHN0cnVnZ2xlcnMubmV0"
 
 favicon = "img/favicon.ico"
 
+footer_menu = [
+    { url = "sitemap.xml", name = "sitemap", trailing_slash = false },
+]
+
 footnote_backlinks = true
 
 full_content_in_feed = true
