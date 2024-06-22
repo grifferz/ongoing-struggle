@@ -186,18 +186,27 @@ but at least anyone potentially _can_, without having to deal with some
 central third party. And if no existing Fediverse instance suits them then
 they can set up their own. It's a decentralised solution.
 
-The extremely niche nature of the Fediverse is pretty stark.
+The extremely niche nature of the Fediverse is pretty stark:
 
-{{ admonition(type="note", title="Fediverse monthly active users", text="
-[~1 million](https://fedidb.org/) as of June 2024.") }}
+{% admonition_body(type="info", title="Active users") %}
 
-{{ admonition(type="note",
-title='GitHub active users (unclear how "active" is defined)', text='
+#### Fediverse
+
+[~1 million](https://fedidb.org/) as of June 2024.
+
+#### GitHub
+
 [~100 million](https://github.blog/2023-01-25-100-million-developers-and-counting/)
-as of January 2023.') }}
+as of January 2023 (unclear how "active" is defined).
+
+{% end %}
 
 Fediverse comments are also basically just plain text and links. Unfortunately
 no way to express yourself better with Markdown or other styling.
 
 Nevertheless, I like it. I think I want to pursue this. Maybe in combination
 with Isso, if that doesn't get too noisy.
+
+---
+
+[^1]: "Email" doesn't count!
