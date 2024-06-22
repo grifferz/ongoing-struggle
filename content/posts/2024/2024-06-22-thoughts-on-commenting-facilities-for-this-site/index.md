@@ -51,11 +51,12 @@ So, conclusions:
 
 - I should find a way to bring over some if not all of the comments that
   already exist.
-- I should provide at least one way to let people comment on new articles
-  ("email" doesn't count.
+- I should provide at least one way[^1] to let people comment on new articles.
 
 Other people's value judgements can and will differ. A lot of this is just
 going to be, like, my opinion, man.
+
+# In that case, what to do about…
 
 ## Existing comments
 
@@ -176,6 +177,24 @@ display all Fediverse replies to that post. So:
    [front matter](https://www.getzola.org/documentation/content/page/#front-matter).
 3. JavaScript on your site is then able to display all the comments on that
    Fediverse post.
+
+{% admonition_body(type="note") %}
+
+In this section I talk about "Fediverse" and "Mastodon".
+
+I'm not an expert on this but my understanding is that _Fediverse_ instances
+exchange data using
+[the ActivityPub protocol](https://en.wikipedia.org/wiki/ActivityPub), and
+_Mastodon_ is [a particular implementation](https://joinmastodon.org/) of a
+Fediverse instance.
+
+However, [Mastodon's API](https://docs.joinmastodon.org/api/) is unique to
+itself (and derivative software), so this commenting system would rely on the
+article author having an account on a Mastodon server. Though, everyone else
+replying on the Fediverse would not necessarily be using Mastodon on _their_
+instances yet their replies would still show up.
+
+{% end %}
 
 The effect is that a Fediverse conversation about your article is placed on
 your article. [This project](https://github.com/dpecos/mastodon-comments) is
