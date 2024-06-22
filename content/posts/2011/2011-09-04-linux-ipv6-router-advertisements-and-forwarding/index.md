@@ -22,7 +22,7 @@ hide_from_feed = true
 By default, a Linux host on an IPv6 network will listen for and solicit router
 advertisements in order to choose an IPv6 address for itself and to set up its
 default route. This is referred to as
-[stateless address autoconfiguration (SLAAC)](http://en.wikipedia.org/wiki/IPv6_address#Stateless_address_autoconfiguration).
+[stateless address autoconfiguration (SLAAC)](https://en.wikipedia.org/wiki/IPv6_address#Stateless_address_autoconfiguration).
 
 If you don't want a host to automatically configure an address and route then
 you could disable this behaviour by writing `0` to
