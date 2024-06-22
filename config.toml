@@ -14,7 +14,7 @@ description = "I'll get there eventually"
 author = "Andy"
 
 generate_feeds = true
-feed_filenames = [ "atom.xml" ]
+feed_filenames = ["atom.xml"]
 
 # `zole serve` doesn't seem to like hardlinls.
 #hard_link_static = true
@@ -74,9 +74,9 @@ skin = "mint"
 social_media_card = "/social_cards/default.jpg"
 
 socials = [
-    { name = "Fediverse", url = "https://social.bitfolk.com/@grifferz", icon = "mastodon"},
-    { name = "YouTube", url = "https://youtube.com/@grifferz", icon = "youtube"},
-    { name = "GitHub", url = "https://github.com/grifferz", icon = "github"},
+    { name = "Fediverse", url = "https://social.bitfolk.com/@grifferz", icon = "mastodon" },
+    { name = "YouTube", url = "https://youtube.com/@grifferz", icon = "youtube" },
+    { name = "GitHub", url = "https://github.com/grifferz", icon = "github" },
 ]
 
-stylesheets = [ "strugglers_extras.css" ]
+stylesheets = ["strugglers_extras.css"]
