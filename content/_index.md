@@ -8,6 +8,7 @@ header.title = "I'll get there eventually"
 header.img = "img/profile-violet-round-450px.png"
 header.img_alt = "Andy"
 section_path = "posts/_index.md"
+max_posts = 5
 +++
 
 New blog, who dis? I've switched blog software and am still moving posts over
