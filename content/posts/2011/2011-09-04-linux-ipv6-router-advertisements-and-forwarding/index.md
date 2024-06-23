@@ -1,7 +1,7 @@
 +++
 title = "Linux, IPv6, router advertisements and forwarding"
 description = """
-How to enable IPv6 routing on Linux wile still learning your default route
+How to enable IPv6 routing on Linux while still learning your default route
 from SLAAC
 """
 
