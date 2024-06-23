@@ -66,6 +66,7 @@ invert_title_order = true
 menu = [
     { url = "", name = "Home" },
     { url = "posts", name = "Posts" },
+    { url = "pages/about/", name = "About" },
     { url = "tags", name = "Tags" },
 ]
 
