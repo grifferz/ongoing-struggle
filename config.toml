@@ -81,3 +81,16 @@ socials = [
 ]
 
 stylesheets = ["strugglers_extras.css"]
+
+[extra.isso]
+enabled_for_all_posts = true
+automatic_loading = true
+endpoint_url = "https://strugglers.net/comments/" # URL to Isso host.
+page_id_is_slug = true
+lang = ""
+max_comments_top = "inf"
+max_comments_nested = "5"
+avatar = true
+voting = true
+page_author_hashes = ""
+lazy_loading = true
