@@ -70,6 +70,10 @@ menu = [
     { url = "tags", name = "Tags" },
 ]
 
+remote_repository_url = "https://github.com/grifferz/ongoing-struggle"
+remote_repository_git_platform = "auto"
+remote_repository_branch = "main"
+
 skin = "mint"
 
 social_media_card = "/social_cards/default.jpg"

@@ -7,4 +7,5 @@ paginate_by = 5
 quick_navigation_buttons = true
 show_previous_next_article_links = true
 show_reading_time = false
+show_remote_source = true
 +++
