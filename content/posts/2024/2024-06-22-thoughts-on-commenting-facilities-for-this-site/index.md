@@ -26,10 +26,19 @@ about this.
 
 I think I will:
 
-- Try to set up Isso at least for the purpose of importing old comments.
-- Then I'll see what Isso is like generally.
-- If Isso didn't work for importing then I'll try the XML conversion myself.
-- Independently, I'll investigate the Fediverse conversation thing.
+- [x] Try to set up Isso at least for the purpose of importing old comments.
+- [ ] Then I'll see what Isso is like generally.
+- [ ] If Isso didn't work for importing then I'll try the XML conversion
+      myself.
+- [ ] Independently, I'll investigate the Fediverse conversation thing.
+
+## Updates
+
+### 2024-06-24
+
+Isso was implemented and comments from the old Wordpress blog were imported
+into it. I'm still unsure if I will continue to allow new comments through it
+though.
 
 ## The problem
 
