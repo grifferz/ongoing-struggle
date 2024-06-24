@@ -218,8 +218,9 @@
 
         {# Comments #}
         {% if comment_system %}
-            <p>Found a typo? Feel free to just submit a pull request on GitHub
-            to fix it. 😀</p>
+            <p>Found a typo? Feel free to just <a
+            href="{{ config.extra.remote_repository_url }}/blob/main/content/{{ page.relative_path }}">submit
+            a pull request on GitHub</a> to fix it. 😀</p>
             {% include "partials/comments.html" %}
         {% endif %}
 
