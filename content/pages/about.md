@@ -12,13 +12,15 @@ tags = [
 [extra]
 +++
 
+{{ inline_image(src="/img/profile-violet-round-450px.png" alt="Andy with Violet the greyhound") }}
+
 ## The author
 
-Hi, I'm Andy! I'm an end-of-the-Gen-X-cohort computer-toucher and my pronouns
-are he/him. I've been professionally touching computers since about 1994,
-generally with job titles like "systems administrator", "systems engineer",
-"devops", "SRE" and so on. Since 2009 though my full time job has been running
-[BitFolk](https://bitfolk.com/), a VM hosting company.
+Hi, I'm Andy! I'm a tail-end-of-the-Gen-X-cohort computer-toucher and my
+pronouns are he/him. I've been professionally touching computers since about
+1994, generally with job titles like "systems administrator", "systems
+engineer", "devops", "SRE" and so on. Since 2009 though my full time job has
+been running [BitFolk](https://bitfolk.com/), a VM hosting company.
 
 Since 2020 I've also been a
 [professional dog sitter](https://dogsitter.services/)! I specialise in
