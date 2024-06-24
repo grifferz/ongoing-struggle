@@ -28,8 +28,8 @@ I think I will:
 
 - [x] Try to set up Isso at least for the purpose of importing old comments.
 - [ ] Then I'll see what Isso is like generally.
-- [ ] If Isso didn't work for importing then I'll try the XML conversion
-      myself.
+- [x] ~If Isso didn't work for importing then I'll try the XML conversion
+      myself.~
 - [ ] Independently, I'll investigate the Fediverse conversation thing.
 
 ## Updates
