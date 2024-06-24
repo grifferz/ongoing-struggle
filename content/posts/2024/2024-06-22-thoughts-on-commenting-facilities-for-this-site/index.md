@@ -22,7 +22,7 @@ about this.
 
 {{ toc() }}
 
-# <abbr title="Too Long; Didn't Read">TL;DR</abbr>
+## <abbr title="Too Long; Didn't Read">TL;DR</abbr>
 
 I think I will:
 
@@ -31,7 +31,7 @@ I think I will:
 - If Isso didn't work for importing then I'll try the XML conversion myself.
 - Independently, I'll investigate the Fediverse conversation thing.
 
-# The problem
+## The problem
 
 It's a bit tricky to accept comments onto a web site that is running off of
 static files. JavaScript is basically the only way to do it, for which there
@@ -41,7 +41,7 @@ There's a couple of hundred comments on the 300 or so articles that exist on
 the legacy Wordpress site as well, and at least some of them I think are worth
 moving over when I get around to moving over an article from there.
 
-# Is it really worth having comments?
+## Is it really worth having comments?
 
 I mean, the benefits are slim, but they definitely do exist. I've had a few
 really useful and interesting comments over the years and it would be a shame
@@ -56,9 +56,9 @@ So, conclusions:
 Other people's value judgements can and will differ. A lot of this is just
 going to be, like, my opinion, man.
 
-# In that case, what to do about…
+## In that case, what to do about…
 
-## Existing comments
+### Existing comments
 
 I've got an XML export of the legacy blog which includes all the comment data
 along with the post data.
@@ -84,7 +84,7 @@ now (links at the bottom of the page).
 It is claimed, however, that Isso (see [below](#isso)) can
 [import comments from a Wordpress XML export](https://isso-comments.de/docs/guides/quickstart/#id2)!
 
-### The comments XML
+#### The comments XML
 
 Comments in the XML export look like this (omitting some uninteresting
 fields):
@@ -121,7 +121,7 @@ I'll keep the data to leave the door open to improving it in future.
 I haven't decided yet if it will be more important to bring over old comments,
 or to figure out a solution for new comments.
 
-## Future comments
+### Future comments
 
 All of the options for adding comments to a static site involve JavaScript.
 Whatever I choose to do, people who want to keep JS disabled are not going to
@@ -129,11 +129,11 @@ be able to add comments and will just have to make do with email.
 
 I'm aware of a few different options in this space.
 
-### Disqus
+#### Disqus
 
 Just no. Surveillance capitalism.
 
-### giscus
+#### giscus
 
 [giscus](https://giscus.app/) stores comments in GitHub discussions. It's got
 a nice user interface since the UI of GitHub itself is pretty fancy, but does
@@ -145,7 +145,7 @@ issues, but has fewer features than giscuss and the same major downsides.
 
 I am Not A Fan of requiring people to use GitHub.
 
-### Hyvor Talk
+#### Hyvor Talk
 
 [Hyvor Talk](https://talk.hyvor.com/) is a closed source paid service that's a
 bit fancier than giscus.
@@ -153,7 +153,7 @@ bit fancier than giscus.
 I'm still not particularly a fan of making people log in to some third party
 service.
 
-### Isso
+#### Isso
 
 [Isso](https://isso-comments.de/) is a self-hosted open source service that's
 got quite a nice user interface, permits things like Markdown in comments, and
@@ -162,7 +162,7 @@ an account if they don't want to.
 
 I think this one is a real contender!
 
-### Mastodon API
+#### Mastodon API
 
 This isn't quite a commenting system, since it doesn't involve directly
 posting comments.
@@ -209,11 +209,11 @@ The extremely niche nature of the Fediverse is pretty stark:
 
 {% admonition_body(type="info", title="Active users") %}
 
-#### Fediverse
+##### Fediverse
 
 [~1 million](https://fedidb.org/) as of June 2024.
 
-#### GitHub
+##### GitHub
 
 [~100 million](https://github.blog/2023-01-25-100-million-developers-and-counting/)
 as of January 2023 (unclear how "active" is defined).
