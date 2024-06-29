@@ -52,7 +52,7 @@ I'd done that because they were receiving an unusually large amount of traffic
 due to
 [the Snapchat NTP bug](https://en.wikipedia.org/wiki/NTP_server_misuse_and_abuse#Snapchat_on_iOS).
 It wasn't really causing any huge problems, but the number of traffic flows
-were pushing useful information out of [Jump](http://www.jump.net.uk/)'s
+were pushing useful information out of [Jump](https://www.jump.net.uk/)'s
 fixed-size netflow database and I didn't want to deal with it over the holiday
 period, so this public service was withdrawn.
 
