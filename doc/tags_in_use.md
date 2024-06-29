@@ -26,6 +26,7 @@
 ## Software
 
 - apache
+- mediawiki
 
 ## Vague tech
 
