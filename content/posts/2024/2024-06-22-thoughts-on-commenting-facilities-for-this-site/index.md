@@ -187,7 +187,7 @@ display all Fediverse replies to that post. So:
 3. JavaScript on your site is then able to display all the comments on that
    Fediverse post.
 
-{% admonition_body(type="note") %}
+{% admonition_body(type="note", icon="info") %}
 
 In this section I talk about "Fediverse" and "Mastodon".
 
@@ -216,7 +216,7 @@ they can set up their own. It's a decentralised solution.
 
 The extremely niche nature of the Fediverse is pretty stark:
 
-{% admonition_body(type="info", title="Active users") %}
+{% admonition_body(type="info", title="Active users", icon="note") %}
 
 ##### Fediverse
 
