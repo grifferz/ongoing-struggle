@@ -2,6 +2,26 @@
 
 set -eu
 
+check=1
+
+VALID_ARGS=$(getopt -o n --long nocheck -- "$@") || exit 1
+
+eval set -- "$VALID_ARGS"
+# shellcheck disable=SC2078
+while [ : ]; do
+    case "$1" in
+        -n | --nocheck)
+            check=0
+            echo "\`zola check\` disabled as requested…"
+            shift
+            ;;
+        --)
+            shift
+            break
+            ;;
+    esac
+done
+
 warn_if_outdated() {
     local mine="$1"
     local theirs="$2"
@@ -12,7 +32,7 @@ warn_if_outdated() {
     my_ct=$(git log -1 --pretty="format:%ct" "$mine")
     their_ct=$(git -C themes/tabi log -1 --pretty="format:%ct" "$theirs")
 
-    if (( their_ct > my_ct )); then
+    if ((their_ct > my_ct)); then
         echo "$theirs in theme is newer than our $mine!"
         ((outdated++))
     fi
@@ -37,13 +57,15 @@ if [ "$outdated" -ne 0 ]; then
     exit 1
 fi
 
-zola check || {
-    read -p "\`zola check\` failed. build and publish anyway? (y/N) " -n 1 -r
-    if [[ ! $REPLY =~ ^[Yy]$ ]]; then
-        echo "Aborting."
-        exit 1
-    fi
-}
+if [ "$check" -ne 0 ]; then
+    zola check || {
+        read -p "\`zola check\` failed. build and publish anyway? (y/N) " -n 1 -r
+        if [[ ! $REPLY =~ ^[Yy]$ ]]; then
+            echo "Aborting."
+            exit 1
+        fi
+    }
+fi
 
 zola build &&
     rsync -e 'ssh -q' -SHav --delete --exclude w/ \
