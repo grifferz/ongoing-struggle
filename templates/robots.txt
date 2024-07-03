@@ -15,6 +15,10 @@ Disallow: /
 User-agent: Amazonbot
 Disallow: /w/
 
+# No bot should be looking at wiki special pages.
+User-agent: *
+Disallow: /w/index.php?title=Special:*
+
 #############################################################################
 # The rest.
 User-agent: *
