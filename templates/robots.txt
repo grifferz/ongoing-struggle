@@ -1,8 +1,16 @@
-# Ridiculously spammy AI crawler.
+#############################################################################
+# Ridiculously spammy AI crawlers.
+User-agent: CCBot
+Disallow: /
+
 User-agent: ClaudeBot
 Disallow: /
 
+User-agent: GPTBot
+Disallow: /
 
+#############################################################################
+# The rest.
 User-agent: *
 Disallow:
 Allow: /
