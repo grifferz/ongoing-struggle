@@ -1,0 +1,9 @@
+# Ridiculously spammy AI crawler.
+User-agent: ClaudeBot
+Disallow: /
+
+
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: {{ get_url(path="sitemap.xml") }}
