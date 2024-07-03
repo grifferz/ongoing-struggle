@@ -10,6 +10,12 @@ User-agent: GPTBot
 Disallow: /
 
 #############################################################################
+# Other stuff that's too eager.
+# Amazonbot gets lost in the wiki.
+User-agent: Amazonbot
+Disallow: /w/
+
+#############################################################################
 # The rest.
 User-agent: *
 Disallow:
