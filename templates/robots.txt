@@ -11,8 +11,9 @@ Disallow: /
 User-agent: Amazonbot
 Disallow: /w/
 
-# No bot should be looking at wiki special pages nor templates
+# No bot should be looking at wiki special pages, templates nor API.
 User-agent: *
+Disallow: /w/api.php*
 Disallow: /w/index.php?title=Special:*
 Disallow: /w/index.php?title=Talk:*
 Disallow: /wiki/Special:*
