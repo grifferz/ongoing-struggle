@@ -8,6 +8,10 @@
 
 - fail
 
+## Filesystems
+
+- xfs
+
 ## Meta
 
 - meta
