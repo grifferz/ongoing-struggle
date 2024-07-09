@@ -101,8 +101,8 @@ When I say "recently" I do mean really recently. I mean like kernel release
 4.9.1 which came out on 2017-01-04. At the moment it comes with massive
 **EXPERIMENTAL** warnings, requires a new filesystem to be created with a
 special format option, and will need an `xfsprogs` compiled from
-[recent git](http://xfs.org/index.php/Getting_the_latest_source_code#XFS_user_space_tools)
-in order to have a `mkfs.xfs` that can create such a filesystem.
+[recent git](https://xfs.wiki.kernel.org/#userspace_utilities) in order to
+have a `mkfs.xfs` that can create such a filesystem.
 
 So before going further, I'm going to assume you've compiled a new enough
 kernel and booted into it, then compiled up a new enough `xfsprogs`. Both of
