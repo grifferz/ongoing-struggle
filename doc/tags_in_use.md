@@ -30,6 +30,7 @@
 ## Software
 
 - apache
+- gnome
 - mediawiki
 
 ## Vague tech
