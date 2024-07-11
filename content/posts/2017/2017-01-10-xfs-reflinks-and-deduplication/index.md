@@ -5,9 +5,9 @@ Using reflinks in XFS for copy-on-write and deduplication
 """
 
 [taxonomies]
-# see `docs/tags_in_use.md` for a list of all tags currently in use.
 tags = [
     "linux",
+    "migrated-from-wordpress",
     "xfs",
 ]
 
