@@ -155,7 +155,7 @@ $ systemctl --user enable --now mpd
 
 The `--now` flag both enables the service and starts it right away.
 
-{% admonition_body(type="note", icon="info") %}
+{% admonition_body(type="warning") %}
 
 This command isn't run as `root`; it's a user-level `systemd` service hence
 the `--user` option.
