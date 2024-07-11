@@ -143,7 +143,7 @@ play it.
 So:
 
 ```txt
-$ apt install mpd mpc ncmpcpp kitty timg libnotify-bin inotify-tools
+# apt install mpd mpc ncmpcpp kitty timg libnotify-bin inotify-tools
 ```
 
 In case you weren't aware, you can arrange for your personal `mpd` to be
@@ -171,9 +171,9 @@ very simple graphical `mpd` client.
 #### [mpd-mpris](https://github.com/natsukagami/mpd-mpris)
 
 This small Go binary listens on the user DBUS for the media keys and issues
-mpd commands appropriately. If you didn't want to use this then you could lash
-up something very simple that executes e.g. `mpc next` or `mpc toggle` when
-the relevant key is pressed, but this does it all for you. Once you've
+`mpd` commands appropriately. If you didn't want to use this then you could
+lash up something very simple that executes e.g. `mpc next` or `mpc toggle`
+when the relevant key is pressed, but this does it all for you. Once you've
 [got it from GitHub](https://github.com/natsukagami/mpd-mpris) place the
 binary in **$HOME/bin/**,
 [the mpd-mpris.service file from my GitHub](https://github.com/grifferz/ncmpcpp-setup/blob/main/mpd-mpris.service)
