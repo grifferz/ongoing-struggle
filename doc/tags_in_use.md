@@ -36,5 +36,6 @@
 ## Vague tech
 
 - hacking
+- hardware
 - internet
 - iot
