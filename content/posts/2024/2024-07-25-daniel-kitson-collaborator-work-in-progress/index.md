@@ -1,7 +1,7 @@
 +++
 title = "Daniel Kitson – Collaborator (work in progress)"
 description = """
-Some thoughts on Daniel Kitson's comedy show Collaborator, which Jenny and I went to see last night
+Some thoughts on Daniel Kitson's comedy show Collaborator, which Jenny and I went to see last night (no spoilers)
 """
 
 [taxonomies]
