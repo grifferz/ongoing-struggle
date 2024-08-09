@@ -46,7 +46,7 @@ outdated=0
 # Direct file matches (path to theirs is the same as the path to ours).
 # This shellchec ignore while there's only one item in the list.
 # shellcheck disable=SC2043
-for f in templates/page.html; do
+for f in templates/atom.xml templates/page.html; do
     warn_if_outdated "$f" "$f"
 done
 
