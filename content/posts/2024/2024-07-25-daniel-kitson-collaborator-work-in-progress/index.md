@@ -16,9 +16,11 @@ tags = [
 
 ## Collaborators
 
-Last night we went to see
-[Daniel Kitson's "_Collaborator_" (work in progress)](https://www.thealbany.org.uk/shows/collaborator/).
-I'd no idea what to expect but it was really good!
+Last night we went to see [Daniel Kitson's "_Collaborator_" (work in
+progress)][collaborator]. I'd no idea what to expect but it was really good!
+
+[collaborator]:
+  http://web.archive.org/web/20240810160211/https://www.danielkitson.com/livestuff/2024/7/15/collaborator-a-work-in-progress-by-daniel-kitson
 
 {{ figure(
     class="captioned",
