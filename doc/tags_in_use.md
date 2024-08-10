@@ -27,6 +27,7 @@
 ## Software
 - apache
 - gnome
+- iptables
 - mediawiki
 
 ## Vague tech
