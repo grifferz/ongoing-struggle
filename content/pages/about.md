@@ -95,10 +95,10 @@ in August 2024 someone did actually contact me and ask for a way to find them!
 
 My less than satisfactory answers at this time are:
 
-- Look on the web at the [`migreated-from-wordpress`][migrated] tag to see all
-  the posts I've got around to migrating.
+- Look on this web site at the [`migreated-from-wordpress`][migrated] tag to
+  see all the posts I've got around to migrating. Or;
 - Additionally subscribe to [the feed of migrated posts][migrated-feed] which
-  will have posts appear as new whenever I get around to migrating them.
+  will have posts appear as new whenever I get around to migrating them. Or;
 - Look at [the mothballed site][mothballed].
 
 I'm sorry that I haven't got better answers yet; let me know if this is too
