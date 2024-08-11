@@ -28,8 +28,8 @@ hide_from_feed = true
 
 {% admonition_body(type="note", icon="info", title="Workaround in nut!") %}
 
-There may now be a workaround in `nut`! On 11 August based on [the issue I
-reported][nut-issue], [a PR][nut-pr] was merged to add options to filter out
+There may now be a workaround in `nut`! On 11 August 2024 based on [the issue
+I reported][nut-issue], [a PR][nut-pr] was merged to add options to filter out
 these spurious events. I now run `nut` without any problems.
 
 [nut-issue]: https://github.com/networkupstools/nut/issues/2347
