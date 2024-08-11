@@ -26,7 +26,7 @@ tags = [
 hide_from_feed = true
 +++
 
-{% admonition_body(type="note", icon="info", title="Workaround in nut!") %}
+{% admonition_body(type="note", title="Workaround in nut!") %}
 
 There may now be a workaround in `nut`! On 11 August 2024 based on [the issue
 I reported][nut-issue], [a PR][nut-pr] was merged to add options to filter out
@@ -40,7 +40,7 @@ for other people having the same issues, as APC surely won't document this.
 
 {% end %}
 
-{% admonition_body(type="info", icon="note", title="TL;DR:") %}
+{% admonition_body(type="info", title="TL;DR:") %}
 
 Despite otherwise seeming to work correctly, I can't monitor a Back-UPS
 BX1600MI in Linux without seeing a constant stream of spurious battery

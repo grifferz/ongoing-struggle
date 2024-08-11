@@ -35,7 +35,7 @@ machine in order to interact with the IPMI controllers on your servers.
 
 ### List the current users
 
-{% admonition_body(type="note", icon="info") %}
+{% admonition_body(type="note") %}
 
 This article was written in December 2015. Since then the EU passed
 legislation requiring equipment vendors to stop using static default

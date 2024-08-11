@@ -35,7 +35,7 @@ with data that only exists in some remote YAML files:
         stats"
 ) }}
 
-{% admonition_body(type="info", icon="note") %}
+{% admonition_body(type="info") %}
 
 I did actually do all this back in early April, but as I couldn't read my own
 blog site at the time I had to set up a new blog before I could write about
@@ -90,7 +90,7 @@ And there is!
 The extension I settled on is called
 [External_Data](https://www.mediawiki.org/wiki/MediaWiki).
 
-{% admonition_body(type="info", icon="note", title="Description") %}
+{% admonition_body(type="info", title="Description") %}
 
 Allows for using and displaying values retrieved from various sources:
 external URLs and SOAP services, local wiki pages and local files (in CSV,
