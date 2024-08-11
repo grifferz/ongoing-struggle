@@ -12,6 +12,11 @@
 ## Filesystems
 - xfs
 
+## Hardware
+- apc
+- hardware
+- ups
+
 ## Meta
 - meta
 - migrated-from-wordpress
@@ -32,6 +37,5 @@
 
 ## Vague tech
 - hacking
-- hardware
 - internet
 - iot
