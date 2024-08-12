@@ -8,6 +8,7 @@ img.floated {
   float: right;
   margin-left: 1em;
   margin-right: 1em;
+}
 
 /* Override INFO icon so it's more like an 'i' than an exclamation point. */
 .admonition.info {
