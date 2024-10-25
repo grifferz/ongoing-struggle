@@ -27,6 +27,7 @@
 - linux
 
 ## Programming
+- perl
 - rustlang
 
 ## Software
@@ -39,3 +40,4 @@
 - hacking
 - internet
 - iot
+- ipv6
