@@ -35,6 +35,7 @@
 - gnome
 - iptables
 - mediawiki
+- tor
 
 ## Vague tech
 - hacking
