@@ -37,7 +37,7 @@ Happily there are quite a few services that list Tor nodes. I like
 [https://www.dan.me.uk/tornodes](https://www.dan.me.uk/tornodes) which can
 provide a list of exit nodes, updated hourly.
 
-This comes as an list of IP addresses one per line so in order to turn it into
+This comes as a list of IP addresses one per line so in order to turn it into
 an httpd access control list:
 
 ```txt
