@@ -38,6 +38,7 @@
 - tor
 
 ## Vague tech
+- dns
 - hacking
 - internet
 - iot
