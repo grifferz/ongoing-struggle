@@ -26,6 +26,10 @@
 - debian
 - linux
 
+## Personal
+- Personal
+- health
+
 ## Programming
 - perl
 - rustlang
