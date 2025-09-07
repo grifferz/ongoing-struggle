@@ -700,7 +700,7 @@ I thought perhaps it was because some of the last backups had only partially
 completed and the repository might need the `check` command to be run,
 possibly followed by some of the `repair` commands. I ran `check` and got:
 
-```txt
+```txt,name=terminal
 $ sudo rustic check
 [INFO] using config /etc/rustic/rustic.toml
 [INFO] repository local:/srv/restic/repo: password is correct.
@@ -736,7 +736,7 @@ disabled backtrace (set 'RUST_BACKTRACE="1"' environment variable to enable)
 
 So, `repair index` then?
 
-```txt
+```txt,name=terminal
 $ sudo rustic repair index
 [INFO] using config /etc/rustic/rustic.toml
 [INFO] repository local:/srv/restic/repo: password is correct.
