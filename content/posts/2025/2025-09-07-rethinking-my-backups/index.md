@@ -684,8 +684,8 @@ At this point I had a scripted import running from the `rsnapshot` host and
 had most of the production hosts ready to start doing daily backups overnight.
 The next day I found that my new backup host had filled its filesystem, and
 due to this my import script had bailed out and there were several
-partially-completed overnight. I had obviously missed some things on the
-production hosts that should have been excluded from being backed up.
+partially-completed overnight backups. I had obviously missed some things on
+the production hosts that should have been excluded from being backed up.
 
 I was able to get a list of all backups ("snapshots", in `restic` terminology)
 that had completed so I tried to do a `diff` between the most recent snapshot
