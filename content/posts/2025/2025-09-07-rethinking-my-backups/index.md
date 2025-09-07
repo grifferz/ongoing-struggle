@@ -904,8 +904,8 @@ Finally the import was all done and I was satisfied with it. I did a
 `forget --prune` on all the snapshots tagged with `suspect` and had a look at
 the new situation.
 
-The 1.6 TiB of data from rsnapshot was all in `restic` where it took up
-`920 GiB`.
+The 1.6 TiB of data from `rsnapshot` was all in `restic` where it took up 920
+GiB.
 
 ## Memory usage can be problematic
 
@@ -952,7 +952,7 @@ $ sudo restic prune
 ### Decide about the additional remote backups
 
 There's more than one backup, except those are paused at the moment because
-they all used to come out of `rsnapsbhot`. I need to decide about how to re-do
+they all used to come out of `rsnapshot`. I need to decide about how to re-do
 those. At least one of them probably should not be inside an opaque blob like
 a `restic` repository.
 
