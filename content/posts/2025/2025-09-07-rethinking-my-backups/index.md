@@ -511,8 +511,8 @@ Another nicety of `rustic` is that it can fake the time of a backup on the
 command line, whereas `restic` can only do so after the backup has completed —
 you basically issue a command to alter the metadata of the snapshot to say it
 happened at a different time. This creates a new snapshot with the desired
-time, leaving you to `forget` and `prune` the old oe afterwards. That wasn't a
-huge deal, it was just a bit more convenient.
+time, leaving you to `forget` and `prune` the old one afterwards. That wasn't
+a huge deal, it was just a bit more convenient.
 
 I decided to build a script around `rustic` that would start importing the
 `rsnapshot` backups.
@@ -569,7 +569,7 @@ directories into something that `rustic` supported.
 
 My `rsnapshot` backups of course were using `rsync` which has its own filter
 language. I had set that to look for files called `.bitfolk-rsync-filter` in
-each directory. The rules in that file would only apply to entires _in that
+each directory. The rules in that file would only apply to entries _in that
 directory_. I had files like this:
 
 ```txt,name=/var/.bitfolk-rsync-filter
