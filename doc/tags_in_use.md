@@ -14,6 +14,7 @@
 
 ## Filesystems
 
+- btrfs
 - xfs
 
 ## Hardware
@@ -49,10 +50,13 @@
 - gnome
 - iptables
 - mediawiki
+- restic
+- rustic
 - tor
 
 ## Vague tech
 
+- backups
 - dns
 - hacking
 - internet
