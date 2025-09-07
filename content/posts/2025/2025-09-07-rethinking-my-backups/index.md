@@ -584,7 +584,7 @@ directory_. I had files like this:
 list of glob patterns to exclude (or include). Exclude lines to replicate the
 above could be in just one file and would look like:
 
-```txt,name=/etc/rustic/ezcludes
+```txt,name=/etc/rustic/excludes
 !/var/cache/
 !/home/andy/.cache/
 ```
