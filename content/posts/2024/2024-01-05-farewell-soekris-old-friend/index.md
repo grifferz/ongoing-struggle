@@ -21,7 +21,7 @@ hide_from_feed = true
 +++
 
 This morning I shut off the
-[Soekris Engineering net4801](http://www.soekris.com/media/manuals/net4801_manual.pdf)
+[Soekris Engineering net4801](https://web.archive.org/web/20250518234815/https://www.soekris.com/media/manuals/net4801_manual.pdf)
 that has served as our home firewall / PPP termination box for just over 18½
 years.
 
