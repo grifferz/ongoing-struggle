@@ -862,11 +862,6 @@ hadn't set up `resolv.conf` or anything there's no DNS resolution so the
 (remote) repository had to be specified by IP address. As there's no CA store
 inside there the `--insecure-tls` flag had to be used[^1].
 
-[^1]:
-    Not hugely important since the stream is encrypted by `restic` anyway, and
-    then encrypted again with TLS. The risk would be man-in-the-middle
-    impersonation by IP address.
-
 It wasn't hard to add that to my import script and set it going again.
 
 ### Dealing with the time faking
@@ -1012,3 +1007,8 @@ It was running out of storage capacity that prompted all this in the first
 place, but only because I wanted the new thing to be easier to manage. I don't
 actually in principle have too much of an issue with 920 GiB inflating even
 1.7x, though I would hope for less.
+
+[^1]:
+    Not hugely important since the stream is encrypted by `restic` anyway, and
+    then encrypted again with TLS. The risk would be man-in-the-middle
+    impersonation by IP address.
