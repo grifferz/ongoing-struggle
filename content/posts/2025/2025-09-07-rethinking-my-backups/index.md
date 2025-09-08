@@ -912,7 +912,7 @@ GiB.
 Daily backups have been happening for a while now using `restic`. I have quite
 a few low spec virtual machines that have only 1 GiB or 1.5 GiB of memory and
 this has proven to be a problem. `restic` is using between 600 and 800 MiB
-memory which is just too much for those timy VMs even though they don't have a
+memory which is just too much for those tiny VMs even though they don't have a
 lot of data to back up.
 
 Searching around I found [a recommendation] to set the environment variable
