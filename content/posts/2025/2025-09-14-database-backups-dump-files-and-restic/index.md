@@ -113,7 +113,7 @@ do_dump() {
     # Prepend "db_" to each element of dbnames.
     local extra_tags=( "${dbnames[@]/#/db_}" )
     # Comma separate.
-    local extra_tags_string=$(IFS=,; printf "%s" "${dbnames[*]}")
+    local extra_tags_string=$(IFS=,; printf "%s" "${extra_tags[*]}")
 
     local ignored_tables=(rt5.sessions)
 
