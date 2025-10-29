@@ -164,7 +164,7 @@ That will work most of the time, but does have some caveats regarding the exit
 code of piped commands. If not careful you can end up making empty backups of
 a failed `mysqldump` and not noticing.
 
-You can try using `set -o pioefail` and/or you can use `bash`'s `PIPESTATUS`
+You can try using `set -o pipefail` and/or you can use `bash`'s `PIPESTATUS`
 array to examine the exit code of any part of a pipeline. But really, it is
 much easier to sidestep the issue by not using a pipe at all:
 
