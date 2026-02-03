@@ -25,11 +25,10 @@ taxonomies = [{ name = "tags", feed = true, paginate_by = 10 }]
 [link_checker]
 skip_anchor_prefixes = ["https://en.wikipedia.org/wiki/"]
 
-[markdown]
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
-highlight_code = true
-highlight_theme = "css"
+[markdown.highlighting]
+style = "class"
+light_theme = "github-light-high-contrast"
+dark_theme = "github-dark-high-contrast"
 
 [search]
 index_format = "elasticlunr_json"
