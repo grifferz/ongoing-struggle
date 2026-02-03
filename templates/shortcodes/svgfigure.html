@@ -1,0 +1,19 @@
+{# Sample usage: {{ svgfigure(src="array-diagram.svg",
+class="size-small center",
+caption="An Array",
+caption_style="font-weight: bold; font-style: italic;") }} #}
+
+<a href="{{ src }}">
+<figure class="{%- if class is defined -%}{{ class | safe }}{%- else -%} center {%- endif %}">
+	{%- set src = "content/" ~ page.colocated_path ~ src -%}
+	{%- set svg = load_data(path=src, required=true) -%}
+	<!--Add proper accessibility to svgs: https://stackoverflow.com/a/4756461/10147642 - if you're reading this in DevTools, and have an idea of how to, feel free to write to me!-->
+	
+	{{ svg | safe }}
+
+	{% if caption %}
+		<figcaption {% if caption_style %} style="{{ caption_style | safe }}"{% endif %}>{{ caption }}</figcaption>
+	{% endif %}
+
+</figure>
+</a>
