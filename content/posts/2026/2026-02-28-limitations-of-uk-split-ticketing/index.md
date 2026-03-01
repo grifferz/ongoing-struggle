@@ -123,7 +123,7 @@ What I ended up doing was paying extra to get to London Euston by the fastest
 route I could.
 
 I then wanted to get on an Avanti West Coast service from London Euston to
-Birmingham, New Street, the portion of which from Watford Junction I did
+Birmingham New Street, the portion of which from Watford Junction I did
 already have tickets for. They would not allow me on the next one departing
 because that one did not stop at Watford Junction so they said my tickets
 weren't valid for it, even though it would arrive at destination later than
