@@ -36,8 +36,9 @@
 
 ## Personal
 
-- Personal
 - health
+- personal
+- rant
 
 ## Programming
 
