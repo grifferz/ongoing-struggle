@@ -46,12 +46,14 @@
 
 ## Programming
 
+- bash
 - perl
 - rustlang
 
 ## Software
 
 - apache
+- fail2ban
 - gnome
 - iptables
 - mediawiki
