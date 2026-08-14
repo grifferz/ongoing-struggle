@@ -17,7 +17,7 @@ tags = [
 toc_levels = 1
 +++
 
-I have loads of different `failk2ban` jails. Every time I want to know if a
+I have loads of different `fail2ban` jails. Every time I want to know if a
 given IP address is banned I have to look up how to show the banned IPs for
 every jail, when I don't even remember the names of all the jails.
 
