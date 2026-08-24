@@ -16,7 +16,7 @@ tags = [
 ]
 
 [extra]
-toc_levels = 1
+toc_levels = 2
 +++
 
 I've been working on a new way to provision the operating system (Debian) on
