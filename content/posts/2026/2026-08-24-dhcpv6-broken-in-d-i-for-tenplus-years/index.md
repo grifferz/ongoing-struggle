@@ -37,8 +37,8 @@ this is covered in [bug #768188]. Unfortunately the DHCPv6 client in use has a
 interface, meaning that IPv6 connectivity is lost and never regained. This was
 reported in [bug #1072526] in 2024, which is still open today but does contain
 some manual workarounds. Without using one of those workarounds it is not
-possible to install Debian on an On an IPv6-only network that is managed by
-DHCP, not SLAAC.
+possible to install Debian on an IPv6-only network that is managed by
+DHCP, with no SLAAC.
 
 [Debian Installer]: https://www.debian.org/devel/debian-installer/
 [bug #768188]: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=768188#100
