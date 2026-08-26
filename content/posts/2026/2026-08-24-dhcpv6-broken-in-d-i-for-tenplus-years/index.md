@@ -166,7 +166,7 @@ end of the "domain name" question and the start of the disk partitioner, but
 if no questions need to be answered then that doesn't matter. If questions
 _did_ need to be answered then I would have to manually run `dhcp6c` as above.
 
-This whole idea of killing the SHCP clients is pretty gross though. I'm amazed
+This whole idea of killing the DHCP clients is pretty gross though. I'm amazed
 this has worked for so long for IPv4. Even though the DHCPv4 clients clearly
 don't have a signal handler like `dhcp6c` does, this does leave the installer
 environment in a state where it has no running DHCP client so nothing is
